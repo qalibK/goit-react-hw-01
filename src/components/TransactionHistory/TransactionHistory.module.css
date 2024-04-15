@@ -1,0 +1,26 @@
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border-color: black;
+  padding-bottom: 100px;
+}
+
+.thead {
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+
+.th,
+.td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  text-align: center;
+  border: 2px solid black;
+  font-weight: 600;
+}
+
+.tr:nth-child(even) {
+  background-color: #d6d6d6;
+}
